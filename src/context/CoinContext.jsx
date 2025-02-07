@@ -25,7 +25,7 @@ const CoinContextProvider = (props) => {
       method: "GET",
       headers: {
         accept: "application/json",
-        "x-cg-demo-api-key": " CG-nVk2oKF5caM7JedwmWiNLxxz ",
+        "x-cg-demo-api-key": import.meta.env.VITE_COIN_GECKO_API,
       },
     };
 
