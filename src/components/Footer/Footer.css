@@ -1,8 +1,24 @@
 .footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
     text-align: center;
     margin: auto;
     max-width: 80%;
     border-top: 1px solid #989898;
     padding: 15px 0px;
     font-size: 13px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    font-size: x-large;
+}
+.icon:hover{
+    transform: translateY(2px);
+    transition: all;
+    transition-delay: 6ms;
 }
